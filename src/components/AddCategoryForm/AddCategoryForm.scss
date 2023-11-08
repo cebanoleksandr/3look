@@ -1,0 +1,81 @@
+.category-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 24px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.category-item:hover {
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action {
+  padding-inline: 10px;
+}
+
+.remove-category {
+  width: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.remove-category:hover {
+  transform: scale(1.2);
+}
+
+.switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  background-color: rgb(66, 66, 66);
+  width: 40px;
+  height: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.point {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--success-color);
+}
+
+.point-inactive {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--grey-color);
+}
+
+.menu {
+  width: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.menu:hover {
+  transform: scale(1.2);
+}
+
+.inactive {
+  color: grey;
+}
+
+.add-input {
+  background-color: var(--grey-color);
+  color: var(--light-color);
+}
